@@ -1,0 +1,40 @@
+/* styles.css or app.component.css */
+
+/* General reset for body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Styling for the navigation bar */
+  nav {
+    background-color: #007bff; /* Blue background color */
+    padding: 10px 20px; /* Padding for spacing */
+    text-align: center; /* Center-align the links */
+  }
+  
+  /* Styling for the links in the nav */
+  nav a {
+    color: white; /* White text color */
+    font-size: 18px; /* Font size for the links */
+    margin: 0 15px; /* Horizontal spacing between links */
+    text-decoration: none; /* Remove underline */
+    padding: 8px 12px; /* Padding around the links */
+    border-radius: 4px; /* Rounded corners for each link */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  /* Hover effect for links */
+  nav a:hover {
+    background-color: #0056b3; /* Darker blue when hovering */
+    color: #fff; /* Keep text white */
+  }
+  
+  /* Active link styling (optional) */
+  nav a.router-link-active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  

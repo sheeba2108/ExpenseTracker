@@ -1,0 +1,64 @@
+/* Ensure full height for the page */
+.signup-page {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center; /* Vertically center */
+    align-items: center; /* Horizontally center */
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    padding: 20px;
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Styling for the signup card */
+  .signup-card {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px; /* Control max width */
+    animation: fadeIn 1s ease-in-out;
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+  }
+  
+  /* Fade In Animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Styling for h2 */
+  .signup-card h2 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Link styling */
+  .link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Button styling */
+  button.btn-primary {
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: #007bff;
+    transition: 0.3s;
+  }
+  
+  button.btn-primary:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,99 @@
+/* Navbar Styles */
+.custom-navbar {
+    background: linear-gradient(90deg, #4b6cb7, #182848);
+    padding: 15px 0;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #fff;
+  }
+  
+  .nav-link {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-left: 15px;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #ffc107;
+    transform: translateY(-3px);
+  }
+  
+  /* Highlight Login and Signup */
+  .nav-button {
+    padding: 8px 18px;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid #ffc107;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: #ffc107;
+    color: #000;
+  }
+  
+  /* Home Content */
+  .home-content {
+    height: 90vh;
+    background: linear-gradient(rgba(24, 40, 72, 0.8), rgba(75, 108, 183, 0.8)),
+                url('https://images.unsplash.com/photo-1556740749-887f6717d7e4') no-repeat center center/cover;
+    color: #fff;
+    padding-top: 120px;
+  }
+  
+  .brand-text {
+    color: #ffc107;
+    font-weight: 700;
+  }
+  
+  .home-content h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  
+  .home-content p {
+    font-size: 1.5rem;
+    max-width: 600px;
+  }
+  
+  /* CTA Buttons */
+  .cta-buttons .btn {
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-buttons .btn-outline-light:hover {
+    background-color: #ffc107;
+    color: #000;
+    border-color: #ffc107;
+  }
+  
+  .cta-buttons .btn-warning {
+    background-color: #ffc107;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .cta-buttons .btn-warning:hover {
+    background-color: #ffcc33;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .home-content h1 {
+      font-size: 2.5rem;
+    }
+    
+    .home-content p {
+      font-size: 1.2rem;
+    }
+  }
+  
