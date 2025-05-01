@@ -4,11 +4,13 @@ import { GoogleLoginProvider, SocialAuthService, SocialUser } from '@abacritt/an
 import { BehaviorSubject, Observable } from 'rxjs';
 import { Router } from '@angular/router';
 
+
+
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
-  private apiUrl = 'http://localhost:8080/api/users';  // Your backend URL
+  private apiUrl = 'http://localhost:8081/api/users';  // Your backend URL
   private currentUserSubject: BehaviorSubject<SocialUser | null>;
   public currentUser: Observable<SocialUser | null>;
 
